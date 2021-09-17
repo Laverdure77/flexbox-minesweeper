@@ -32,8 +32,9 @@ div{
     /*margin: 0,0,0,0;*/
     height: 40px;
     width: 40px;
-    background-color: lightgrey;
-    border: 2px dotted black;
+    background-color: darkgrey;
+    border-right: 2px dotted black;
+    border-bottom: 2px dotted black;
     color: brown;
     /*  max-width:100%;
      max-height:100%; */
@@ -41,9 +42,27 @@ div{
 }
 
 div img{
-
+   
     max-width:100%;
     max-height:100%;
+}
+
+div.closed-box{
+
+   /*  height: 40px;
+    width: 40px; */
+    background-color: darkgray;
+    box-shadow: inset -4px -4px lightgray;
+    box-shadow: inset 4px 4px white; /*not working, to be solved*/
+    border: 2px solid black;
+    
+
+}
+
+.closed-box:hover{
+
+    background-color: darkgrey;
+    box-shadow: none;
 }
 /* .box{
     text-align: center;
