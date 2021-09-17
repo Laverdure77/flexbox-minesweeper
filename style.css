@@ -1,8 +1,25 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
+article.outer-border{
+    height: 360px;
+    width: 360px;
+    border: 3px solid black;
+    margin-top: 50px;
+}
+article.middle-border{
+    height: 340px;
+    width: 340px;
+    border: 10px solid lightgray;
+}
 
-article{
-    border: 10px solid darkgrey ;
-    /* border-top: darkgrey;
-    border-left: darkgrey; */
+article.inner-border{
+    border: 10px solid whitesmoke ;
+    border-top: 10px solid darkgrey;
+    border-left: 10px solid darkgrey;
     height: 320px;
     width: 320px;
     display: flex;
@@ -15,12 +32,20 @@ div{
     /*margin: 0,0,0,0;*/
     height: 40px;
     width: 40px;
-    /*background-color: lightgrey;*/
-    border: 3px dotted black;
+    background-color: lightgrey;
+    border: 2px dotted black;
+    color: brown;
+    /*  max-width:100%;
+     max-height:100%; */
     /*border-block-color: black;*/
-    
 }
-.box{
+
+div.img{
+
+    max-width:100%;
+    max-height:100%;
+}
+/* .box{
     text-align: center;
     
-}
+} */
