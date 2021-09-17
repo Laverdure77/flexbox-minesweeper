@@ -35,7 +35,9 @@ div{
     background-color: darkgrey;
     border-right: 2px dotted black;
     border-bottom: 2px dotted black;
-    color: brown;
+    /* color: blue; */
+    font-size: medium;
+
     /*  max-width:100%;
      max-height:100%; */
     /*border-block-color: black;*/
@@ -59,6 +61,33 @@ div.closed-box{
 
 }
 
+div.number-box1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    font-size: x-large;
+    color: blue;
+}
+div.number-box2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    font-size: x-large;
+    color: green;
+}
+div.number-box3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /*  background-color: white; */
+    font-size: x-large;
+    color: red;
+}
 .closed-box:hover{
 
     background-color: darkgrey;
